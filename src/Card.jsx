@@ -43,7 +43,7 @@ const Card = () => {
                             </div>
                             {/* 概要 */}
                             <div>
-                            <p>ハンガリー大使館との協働プロジェクト。インタラクティブアプリケーションの展示を麻布駅最寄りにあるハンガリー文化センターで１週間を実施した。</p>
+                            <p>ハンガリー大使館との協働プロジェクト。麻布十番駅最寄りのハンガリー文化センターにて発表と１週間の展示を実施した。</p>
                             <a href="https://www.meisei-u.ac.jp/2024/2024012504.html" className='flex mt-3 text-green-500 items-center'>もっとみる
                                 <svg
                                     width="24"
@@ -92,13 +92,13 @@ const Card = () => {
                             {/* プロジェクトの写真 */}
                             <div className='container px-5 py-5 mx-auto flex flex-wrap'>
                             <div className='mb-10 lg:mb-0 w-full flex justify-center'>
-                                <img className='w-full rounded' src="./img/23nendo.jpg" alt="" />
+                                <img className="w-72 h-52 rounded" src="./img/22tamable.jpg" alt="" />
                             </div>
                             </div>
                             {/* 概要 */}
                             <div>
-                            <p>多摩地区を対象とした「TAMABLE展」</p>
-                            <a href="https://www.meisei-u.ac.jp/2024/2024012504.html" className='flex mt-3 text-green-500 items-center'>もっとみる
+                            <p>多摩地区を対象とした「TAMABLE展」を多摩センター駅最寄りのパルテノン多摩で開催した。</p>
+                            <a href="https://www.meisei-u.ac.jp/2023/2023020102.html" className='flex mt-3 text-green-500 items-center'>もっとみる
                                 <svg
                                     width="24"
                                     height="24"
@@ -146,13 +146,13 @@ const Card = () => {
                             {/* プロジェクトの写真 */}
                             <div className='container px-5 py-5 mx-auto flex flex-wrap'>
                             <div className='mb-10 lg:mb-0 w-full flex justify-center'>
-                                <img className='w-full rounded' src="./img/23nendo.jpg" alt="" />
+                                <img className='w-full rounded' src="./img/21toumai.jpg" alt="" />
                             </div>
                             </div>
                             {/* 概要 */}
                             <div>
-                            <p>レストラン「TOUMAI（トゥーマイ）」での東ヨーロッパのジョージア産ワインのプロモーション・アプリケーション開発。</p>
-                            <a href="https://www.meisei-u.ac.jp/2024/2024012504.html" className='flex mt-3 text-green-500 items-center'>もっとみる
+                            <p>八王子にあるレストラン「TOUMAI（トゥーマイ）」で東ヨーロッパのジョージア産ワインのプロモーション・アプリケーション開発。</p>
+                            <a href="https://www.meisei-u.ac.jp/2022/2022021401.html" className='flex mt-3 text-green-500 items-center'>もっとみる
                                 <svg
                                     width="24"
                                     height="24"
@@ -200,13 +200,13 @@ const Card = () => {
                             {/* プロジェクトの写真 */}
                             <div className='container px-5 py-5 mx-auto flex flex-wrap'>
                             <div className='mb-10 lg:mb-0 w-full flex justify-center'>
-                                <img className='w-full rounded' src="./img/23nendo.jpg" alt="" />
+                                <img className='w-25 h-25 rounded' src="./img/20futo.jpeg" alt="" />
                             </div>
                             </div>
                             {/* 概要 */}
                             <div>
                             <p>地域ブランド・プロモーション用アプリケーションを開発、静岡県伊東市NPOに提案。</p>
-                            <a href="https://www.meisei-u.ac.jp/2024/2024012504.html" className='flex mt-3 text-green-500 items-center'>もっとみる
+                            <a href="https://www.meisei-u.ac.jp/2021/2021031504.html" className='flex mt-3 text-green-500 items-center'>もっとみる
                                 <svg
                                     width="24"
                                     height="24"

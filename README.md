@@ -7,6 +7,23 @@
 
 - npm run dev
 
+# base change
+- GitHub pagesにあげる場合
+    - vite.configを書き直す
+```js
+export default defineConfig({
+  plugins: [react()],
+  build: {
+    outDir: './docs',
+  },
+  base: '/tk-portfolio/',
+})
+```
+- その後
+```js
+npm run build
+```
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

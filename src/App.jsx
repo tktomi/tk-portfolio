@@ -16,10 +16,10 @@ function App() {
             <span className="text-xl ml-3">Takuya Taketomi Portforio</span>
           </a>
           <nav className="md:ml-auto text-base">
-            <a href="#About" className="mr-5 hover:text-blue-400 duration-300">About</a>
-            <a href="#Project" className="mr-5 hover:text-blue-400 duration-300">Project</a>
-            <a href="#Research" className="mr-5 hover:text-blue-400 duration-300">Research</a>
-            <a href="#Exhibition & Workshop" className=" hover:text-blue-400 duration-300">Exhibition & Workshop</a>
+            <a href="#About" className="mr-5 hover:text-green-400 duration-300">About</a>
+            <a href="#Project" className="mr-5 hover:text-green-400 duration-300">Project</a>
+            <a href="#Research" className="mr-5 hover:text-green-400 duration-300">Research</a>
+            <a href="#Exhibition & Workshop" className=" hover:text-green-400 duration-300">Exhibition & Workshop</a>
           </nav>
         </div>
       </header>
@@ -48,6 +48,7 @@ function App() {
             <div className='container px-5 py-5 mx-auto'>
                 <div className='text-center mb-2'>
                 <h1 className='text-2xl sm:text-3xl font-medium mb-2 text-gray-900'>Project</h1>
+                  {/* <p className='pb-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, aliquid. Aperiam dicta accusamus numquam quos ab tempore quidem, dignissimos quam!</p> */}
                   <Card />
                 </div>
             </div>
@@ -91,6 +92,10 @@ function App() {
                 </div>
             </div>
       </section>
+
+      <footer className="text-gray-700 border-t border-gray-200 px-2 py-5 mx-auto">
+        <span className="container p-5 text-s ml-3 ">Copyright © 2023 Takuya Taketomi All Rights Reserved.</span>
+      </footer>
     </>
   );
 };
